@@ -1,47 +1,54 @@
+Certainly! Here's a basic README template for your GitHub repository:
+
+---
+
 # YouTube Video Downloader
 
-## Overview
-
-This YouTube Video Downloader is a simple Python script that allows you to download YouTube videos easily. It is designed to be user-friendly and efficient. Please note that using this tool may violate YouTube's terms of service, so use it responsibly and only for personal use or in compliance with YouTube's policies.
+This is a simple YouTube video downloader program built using Python and Tkinter.
 
 ## Features
 
-- Download YouTube videos in various formats and resolutions.
-- Easy-to-use command-line interface.
-- Fast and efficient downloading process.
+- Download YouTube videos by providing the URL.
+- Choose the desired resolution for the downloaded video.
 
 ## Requirements
 
-- Python 3.x
-- Required Python libraries (install using `pip install -r requirements.txt`):
-  - `pytube`
+Make sure you have Python installed on your system. You can install the required Python packages using the following command:
 
-## Usage
+```bash
+pip install pytube customtkinter
+```
+
+## How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/youtube-downloader.git
-   cd youtube-downloader
-   ```
 
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
 
-3. Run the script with the YouTube video URL as an argument:
-   ```bash
-   python youtube_downloader.py https://www.youtube.com/watch?v=yourvideoid
-   ```
+2. Run the program:
 
-4. The script will prompt you to choose the desired format and resolution. Select the appropriate option.
+```bash
+python your_program_name.py
+```
 
-5. The video will be downloaded and saved in the current directory.
+3. Enter the YouTube video URL and select the desired resolution.
+4. Click the "Download" button to start the download.
+5. The progress will be displayed, and once completed, the status will change to "Downloaded."
 
-## Disclaimer
+## Dependencies
 
-This tool is provided for educational and personal use only. The developers are not responsible for any misuse of this tool or any violation of YouTube's terms of service.
+- [pytube](https://github.com/pytube/pytube) - For YouTube video downloading.
+- [customtkinter](https://github.com/CoolCoderSJ/customtkinter) - A customized version of Tkinter with additional features.
 
 ## License
 
-This YouTube Video Downloader is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Make sure to replace "your-username" and "your-repository" with your GitHub username and the name of your repository. Also, update "your_program_name.py" accordingly.
+
+Feel free to expand or customize this README based on additional details you want to provide about your program. If you have any special instructions or considerations, make sure to include them in the README as well.

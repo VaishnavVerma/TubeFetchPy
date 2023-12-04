@@ -13,12 +13,26 @@ def download_video():
     status_label.pack(pady="10p")
 
     try:
-        yt = YouTube(url)
+        yt = YouTube(url, on_progress_callback=on_progress)
         stream = yt.streams.filter(res=resolution).first()
-        stream.download()  
-    except Exception as e:
-        status_label.configure(text=f"Error {str(e)}", text_color="white", fg_color="red")
+        file_path = os.path.join("downloads", f"{yt.title}.mp4")
 
+        # Download video to the specified file path
+        stream.download(output_path="downloads")
+
+        # Update status label
+        status_label.configure(text="Downloaded!", text_color="white", fg_color="green")
+
+    except Exception as e:
+        status_label.configure(text=f"Error: {str(e)}", text_color="white", fg_color="red")
+
+def on_progress(stream, chunk,bytes_remaining):
+    total_size = stream.filesize
+    bytes_downloaded = total_size - bytes_remaining
+    percentage_completed = bytes_downloaded / total_size *100
+    progress_label.configure(text=str(int(percentage_completed)) + "%")
+    progress_label.update()
+    progress_bar.set(float(percentage_completed / 100))
 
 
 root = ctk.CTk()
@@ -59,8 +73,6 @@ progress_bar = ctk.CTkProgressBar(content_frame, width=400)
 progress_bar.set(0.6)
 
 
-# Status label
 status_label = ctk.CTkLabel(content_frame, text="Downloaded")
-
 
 root.mainloop()
