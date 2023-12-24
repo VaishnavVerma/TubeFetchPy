@@ -34,7 +34,7 @@ pip install packaging
 2. **Run the program:**
 
     ```bash
-    cd /path/to/your/TubeFetchPy
+    cd /path/to/your/TubeFetchPy/env
     python app.py
     ```
 
