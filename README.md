@@ -64,7 +64,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ![Screenshot 2023-12-24 133246](https://github.com/VaishnavVerma/TubeFetchPy/assets/131885973/236ed19d-37e6-4fbc-b56d-eb6ac4760338)
 
-
----
-
-Replace `https://example.com/screenshot1.png` and `https://example.com/screenshot2.png` with the actual URLs of your screenshots.
