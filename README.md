@@ -1,11 +1,4 @@
-Certainly! Here's a modified version of the README file with the requested instructions:
-
----
-
 # TubeFetchPy - YouTube Video Downloader
-
-![Screenshot 2023-12-24 132635](https://github.com/VaishnavVerma/TubeFetchPy/assets/131885973/c8c4777e-09fb-4ad6-8a1b-cf0872042efe)
-
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -37,7 +30,7 @@ pip install packaging
 2. **Run the program:**
 
     ```bash
-    cd /path/to/your/TubeFetchPy/env
+    cd /path/to/your/TubeFetchPy
     python app.py
     ```
 
@@ -66,6 +59,12 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 - Special thanks to the developers of [pytube](https://github.com/pytube/pytube) and [customtkinter](https://github.com/CoolCoderSJ/customtkinter) for their fantastic work.
 
+## Screenshots
+![Screenshot 2023-12-24 133233](https://github.com/VaishnavVerma/TubeFetchPy/assets/131885973/98e712e6-0548-48d5-b75c-862c458a3681)
+
+![Screenshot 2023-12-24 133246](https://github.com/VaishnavVerma/TubeFetchPy/assets/131885973/236ed19d-37e6-4fbc-b56d-eb6ac4760338)
+
+
 ---
 
-Feel free to modify any part of the README further based on your preferences or any additional information you'd like to include.
+Replace `https://example.com/screenshot1.png` and `https://example.com/screenshot2.png` with the actual URLs of your screenshots.
