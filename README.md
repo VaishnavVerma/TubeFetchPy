@@ -1,12 +1,12 @@
-Certainly! Here's an enhanced version of the README file for your YouTube Video Downloader project:
+Certainly! Here's a modified version of the README file with the requested instructions:
 
 ---
 
-# YouTube Video Downloader
+# TubeFetchPy - YouTube Video Downloader
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A simple yet powerful YouTube video downloader program built using Python and Tkinter.
+TubeFetchPy is a simple yet powerful YouTube video downloader program built using Python and Tkinter.
 
 ## Features
 
@@ -15,10 +15,11 @@ A simple yet powerful YouTube video downloader program built using Python and Tk
 
 ## Requirements
 
-Ensure you have Python installed on your system. Install the required Python packages using the following command:
+Ensure you have Python installed on your system. Install the required Python packages using the following commands:
 
 ```bash
 pip install pytube customtkinter
+pip install packaging
 ```
 
 ## How to Use
@@ -33,7 +34,8 @@ pip install pytube customtkinter
 2. **Run the program:**
 
     ```bash
-    python your_program_name.py
+    cd /path/to/your/TubeFetchPy
+    python app.py
     ```
 
 3. **Usage Steps:**
@@ -47,6 +49,7 @@ pip install pytube customtkinter
 
 - [pytube](https://github.com/pytube/pytube) - For YouTube video downloading.
 - [customtkinter](https://github.com/CoolCoderSJ/customtkinter) - A customized version of Tkinter with additional features.
+- [packaging](https://pypi.org/project/packaging/) - Required module for the program.
 
 ## License
 
@@ -62,4 +65,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
-Customize the README further based on any specific details or features you'd like to highlight. If you have any additional sections or instructions, feel free to add them for a comprehensive and user-friendly guide.
+Feel free to modify any part of the README further based on your preferences or any additional information you'd like to include.
